@@ -1,0 +1,114 @@
+body {
+    background-color: #000;
+    font-family: Tahoma;
+    color: #FFF;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+table.tcTable {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid #1c4c16;
+    padding: 8px;
+    margin: 8px;
+    float: left;
+    width: 31%;
+}
+
+div.projectName a.buildTypeName {
+    text-shadow: 1px 1px 2px #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+td.buildConfigurationName a.buildTypeName,
+.buildDate {
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.buildDateLast {
+    color: yellow;
+}
+
+td.buildConfigurationName img,
+td.buildResults,
+div.teamCityBuildNumber {
+    display:none;
+}
+
+.buildSuccess {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
+    padding: 11px;
+    background : -webkit-linear-gradient(top, #27965B, #063B24);
+    background : -moz-linear-gradient(top, #27965B, #063B24);
+    background : -o-linear-gradient(top, #27965B, #063B24);
+    opacity: 0.9;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 10px 5px #050505;
+    -webkit-box-shadow: 5px 5px 10px 5px #050505;
+    -moz-box-shadow: 5px 5px 10px 5px #050505;
+    text-shadow: 0px 0px 1px #000000;
+    resize: both;
+    overflow: auto;
+}
+.buildFailure {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
+    padding: 11px;
+    background : -webkit-linear-gradient(top, #AF0E01, #610901);
+    background : -moz-linear-gradient(top, #AF0E01, #610901);
+    background : -o-linear-gradient(top, #AF0E01, #610901);
+    opacity: 0.9;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 10px 5px #050505;
+    -webkit-box-shadow: 5px 5px 10px 5px #050505;
+    -moz-box-shadow: 5px 5px 10px 5px #050505;
+    text-shadow: 0px 0px 1px #000000;
+    resize: both;
+    overflow: auto;
+    border-color: #300 !important;
+}
+.buildUnknown {
+    background: #747474;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
+    padding: 11px;
+    opacity: 0.9;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 10px 5px #050505;
+    -webkit-box-shadow: 5px 5px 10px 5px #050505;
+    -moz-box-shadow: 5px 5px 10px 5px #050505;
+    text-shadow: 0px 0px 1px #000000;
+    resize: both;
+    overflow: auto;
+    border-color: #300 !important;
+}
+
+#container {
+    background-image: -webkit-linear-gradient(top, #555555, #000);
+    background-image: -moz-linear-gradient(top, #555555, #000);
+    background-image: -o-linear-gradient(top, #555555, #000);
+
+}
